@@ -33,10 +33,10 @@ O aplicativo oferece:
 ---
 
 ## 🌟 Objetivo do Projeto  
-Este aplicativo foi criado como parte do meu aprendizado em **Flutter** e desenvolvimento de aplicativos móveis. Meu objetivo é:  
+Este aplicativo foi criado como parte do meu aprendizado em **Flutter** e desenvolvimento de aplicativos móveis, com objetivo de:  
 - Praticar a criação de interfaces modernas e interativas.  
 - Aprender a estruturar um projeto mobile completo.  
-- Explorar a implementação de lógica de jogo e funcionalidades offline.  
+- Treinar a implementação de lógica de jogo.  
 
 ---
 
