@@ -67,8 +67,8 @@ Essas melhorias estão planejadas para versões futuras do aplicativo. Fique de 
 ### Clone o repositório:  
 
 ```bash
-git clone https://github.com/seuusuario/faz-ou-bebe.git  
-cd faz-ou-bebe  
+git clone https://github.com/PedroFRomao/App-Faz-ou-Bebe.git  
+cd App-Faz-ou-Bebe 
 ```
 
 ### Instale as dependências:
@@ -90,7 +90,6 @@ flutter run
 Localizado em **lib/services/challenge_service.dart.**
 
 ```dart
-Copiar código
 Future<String> getRandomChallenge() async {
   // Conecta ao banco de dados e retorna um desafio aleatório.
   return "Exemplo de desafio aleatório"; // Modifique para a implementação real.
@@ -102,7 +101,6 @@ Future<String> getRandomChallenge() async {
 Localizado em **lib/pages/game_page.dart.**
 
 ```dart
-Copiar código
 class GamePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
