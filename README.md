@@ -44,13 +44,13 @@ Este aplicativo foi criado como parte do meu aprendizado em **Flutter** e desenv
 Estou trabalhando para adicionar mais recursos e tornar o app ainda mais divertido e personalizável. Algumas ideias incluem:  
 - **Desafios customizados:** permita que os jogadores criem seus próprios desafios exclusivos.  
 - **Vários modos de jogo:** adicione modos temáticos, como *Hardcore* ou *Desafios Rápidos*.  
-- **Multilíngue:** suporte para diferentes idiomas, tornando o app acessível para mais pessoas.  
+- **Multilíngue:** suporte em Inglês, tornando o app acessível para mais pessoas.  
 
 Essas melhorias estão planejadas para versões futuras do aplicativo. Fique de olho para mais novidades!  
 
 ## 📂 Estrutura do Projeto  
 
-**Nota:** A estrutura e os exemplos abaixo são apenas sugestões iniciais e devem ser editados conforme o desenvolvimento do seu projeto.  
+# Exemplos.  
 
 ### Diretórios principais:  
 - **lib/**: contém o código principal do aplicativo Flutter.  
@@ -76,5 +76,40 @@ cd faz-ou-bebe
 ```bash
 flutter pub get
 ```
----
 
+### Execute o aplicativo:
+
+```bash
+flutter run
+```
+
+## 🛠️ Funcionalidades no Código
+
+### Geração de desafios aleatórios
+
+Localizado em **lib/services/challenge_service.dart.**
+
+```dart
+Copiar código
+Future<String> getRandomChallenge() async {
+  // Conecta ao banco de dados e retorna um desafio aleatório.
+  return "Exemplo de desafio aleatório"; // Modifique para a implementação real.
+}
+```
+
+### Interface de Jogo
+
+Localizado em **lib/pages/game_page.dart.**
+
+```dart
+Copiar código
+class GamePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text('Faz ou Bebe')),
+      body: ChallengeDisplay(), // Widget de exemplo.
+    );
+  }
+}
+```
